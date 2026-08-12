@@ -32,4 +32,4 @@ CSV → S3 (raw) → Dataiku DSS (profile/cleanse) → Snowflake RAW → STAGING
 - Interactive Power BI dashboard with drug/country/manufacturing-site breakdowns
 
 ## Documentation
-Full 48-page write-up: [docs/full-documentation.pdf](docs/Pharmacovigilance Intelligence Platform Documentation.pdf)
+Full 48-page write-up: [docs/Pharmacovigilance Intelligence Platform Documentation.pdf](docs/Pharmacovigilance Intelligence Platform Documentation.pdf)
