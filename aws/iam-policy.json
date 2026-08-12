@@ -1,1 +1,22 @@
-
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "BucketAccess",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetBucketLocation",
+                "s3:ListBucket"
+            ],
+            "Resource": "arn:aws:s3:::pharma-capstone-sandeep"
+        },
+        {
+            "Sid": "ObjectAccess",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": "arn:aws:s3:::pharma-capstone-sandeep/*"
+        }
+    ]
+}
